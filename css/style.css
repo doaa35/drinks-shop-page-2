@@ -1,0 +1,127 @@
+body{
+    margin: auto;
+    perspective: 600px;
+}
+h3{ font-family: 'Yellowtail', cursive;}
+
+/* header */
+
+header{
+    background-image: url(../images/Cocktail.jpg);
+    background-size: cover;
+    height: 600px;
+    color: #ffffff;
+}
+/* navbar */
+h3 span{color: #39db9d; font-size: 40px; }
+.nav ul li a{
+    color: #ffffff;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.nav ul li i {
+    color: #cccccc;
+    padding-right: 15px; 
+    cursor: pointer;  
+}
+/* navbar */
+
+/* discription */
+header .disc {
+    margin: auto;
+    margin-top: 140px;
+    transform: rotate(-12deg);
+}
+header .disc h2,h1{font-family: 'Charm', cursive;font-size: 90px;}
+header .disc .sp{font-family: 'Akronim', cursive; color: rgb(3, 0, 0);}
+
+header li a:hover,header li i:hover{color: #39db9d;}
+header .disc button:hover{background-color: #39db9d ;}
+/* discription */
+
+/* header */
+
+/* menu */
+
+.row{
+    margin-right: 0px;
+}
+.menu .m1{
+    background-image: url(../images/dry-ice-cocktail-wallpaper-preview.jpg);
+    background-size: cover;
+    height: 400px;
+    width:600px;
+    position: relative;
+    color: #ffffff;
+    transition: all .5s;
+}
+.menu .m2{
+    background-image: url(../images/juhcuu.jpg);
+    background-size: cover;
+    height: 400px;
+    width:600px;
+    position: relative;
+    transition: all .5s;
+}
+.menu .data{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    letter-spacing: 1.7px;
+}
+.menu img{width: 100%;}
+.menu .btn{
+    width: 135px;
+    height: 34px;
+    letter-spacing: 6.7px;
+    background-color:  #39db9d;
+    border: none;
+    border-radius: 10px;
+}
+.menu h1{font-size: 55px;}
+.menu .m1:hover,.menu .m2:hover{transform: translateZ(3px);}
+/* menu */
+
+/* for extra small skreen */
+@media(max-width:767px){
+    .row{margin-right: 0px;}
+    header{height: 400px;}
+    header .disc {margin: auto;margin-top: 60px;}
+    header .disc h2,h1{font-size: 50px;}
+    h3{font-size: 25px; }
+    h3 span{font-size: 40px; }
+    .nav ul li a{padding-right: 5px;font-size: 18px;}
+    .nav ul li i {padding-right:5px;}
+    .menu .m1, .menu .m2{height: 215px;width:540px;}
+    .menu h1{font-size: 35px;margin-bottom: 5px;} 
+    .menu .btn{margin-top: -20px;} 
+    .menu .data{top: 100px;left: 10px;}
+}
+/* for extra small skreen */
+
+/* for small skreen */
+@media(min-width:768px) and (max-width:991px){
+     .row{margin-right: 0px;}
+     header{height: 400px;}
+     header .disc {margin: auto;margin-top: 50px;}
+     header .disc h2,h1{font-size: 60px;}
+     h3{font-size: 30px; }
+     h3 span{font-size: 45px; }
+    .nav ul li a{padding-right: 5px;font-size: 21px;}
+    .nav ul li i {padding-right:8px;}
+    .menu .m1, .menu .m2{height: 200px;width:380px;}
+    .menu h1{font-size: 35px;margin-bottom: 2px;} 
+    .menu .btn{margin-top: -20px;width:100px;font-size: 15px;padding-left: 7px;} 
+    .menu .data{top: 90px;left: 7px;}
+}
+/* for small skreen */
+
+/* for meduim skreen */
+@media(min-width:992px) and (max-width:1199px){
+     header .disc h2,h1{font-size: 60px;}
+    .menu .m1, .menu .m2{height: 320px;width:475px;}
+    .menu .data{top: 210px;left: 11px;}
+    .menu h1{font-size: 32px;margin-bottom: 2px;} 
+    .menu .btn{margin-top: -20px;} 
+}
+/* for meduim skreen */
